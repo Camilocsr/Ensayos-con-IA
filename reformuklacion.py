@@ -37,6 +37,5 @@ def generar_ensayo_y_guardar(output_path):
     print(f"Se ha generado el ensayo y guardado en {output_path}")
 
 if __name__ == "__main__":
-    output_path = "documentowod\ensayo.docx"
-    
+    output_path = "documents\ensayo.docx"
     generar_ensayo_y_guardar(output_path)
